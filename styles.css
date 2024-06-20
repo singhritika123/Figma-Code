@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/Vector 1.png');
+  background-size: cover;
+  margin-bottom: 0%;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100px;
+  height: auto;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFBF00;
+  margin-left: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.nav-links a.highlight {
+  color: #FFBF00;
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.auth-buttons button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.auth-buttons .sign-in {
+  background-color: #14495E;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.auth-buttons .register {
+  background-color: #D4EBE8;
+  color: #000;
+  border-radius: 0.5rem;
+}
+
+main.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.main-left,
+.main-right {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-left {
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  margin-bottom: 2rem;
+  font-size: small;
+  max-width: 150px;
+  height: auto;
+}
+
+.main-right {
+  margin-bottom: 2.5rem;
+}
+
+.main-left img,
+.main-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Pet img {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+}
+
+.flower {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 0.5px;
+  position: relative;
+}
+
+.flower div:nth-child(1) img,
+.flower div:nth-child(3) img,
+.flower div:nth-child(4) img {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fol {
+  width: 2rem;
+  height: 3rem;
+}
+
+.flower .paw {
+  top: 1px;
+  left: 50px;
+  z-index: 1;
+}
+
+.click {
+  margin-left: 2rem;
+}
